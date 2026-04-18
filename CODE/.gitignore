@@ -41,9 +41,7 @@ build/
 dist/
 *.egg-info/
 
-# 🔥 Docker (optional)
-Dockerfile*
-docker-compose.yml
+
 
 # 🔥 ML Models (optional - if large, better not push)
 *.pkl
