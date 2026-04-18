@@ -1,0 +1,56 @@
+# 🔥 Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔥 Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# 🔥 Environment variables
+.env
+
+# 🔥 Flask specific
+instance/
+*.db
+*.sqlite3
+
+# 🔥 Logs
+*.log
+
+# 🔥 OS files
+.DS_Store
+Thumbs.db
+
+# 🔥 IDE / Editor
+.vscode/
+.idea/
+
+# 🔥 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🔥 Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 🔥 Build / distribution
+build/
+dist/
+*.egg-info/
+
+# 🔥 Docker (optional)
+Dockerfile*
+docker-compose.yml
+
+# 🔥 ML Models (optional - if large, better not push)
+*.pkl
+*.pickle
+
+# 🔥 CSV / datasets (optional)
+*.csv
+
+# 🔥 Node (if you ever add frontend tools)
+node_modules/
